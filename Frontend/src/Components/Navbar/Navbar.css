@@ -1,0 +1,24 @@
+.containerNavbar{
+    position: relative;
+    z-index: 2;
+margin-top: 20px;
+background-color: #fdfafa; 
+height:14vh;
+width: 100vw;
+margin: auto;
+}
+.wrapperNavbar{
+    display: flex;
+justify-content: center;
+}
+.centerNavbar{
+/* margin-left: 0px; */
+width: 480px;
+margin-top: 16px;
+}
+
+.menuItem{
+display: inline-block;
+/* padding: 10px 10px; */
+margin-top: 20px;
+}

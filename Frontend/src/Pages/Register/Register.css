@@ -1,0 +1,117 @@
+.containerRegister {
+    width: 100vw;
+
+    background: linear-gradient(rgba(227, 119, 119, 0.5),
+            rgba(22, 92, 214, 0.5)),
+        url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameRegister,
+.emailRegister,
+.passwordRegister {
+    display: flex;
+
+
+}
+
+#formInputRegister {
+    width: 60%;
+
+}
+
+.firstnameRegister,
+.lastnameRegister,
+.insideEmailRegister,
+.insideUsernameRegister,
+.insidePasswordRegister,
+.insideConfirmPasswordRegister {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.error {
+    color: #fc8181;
+font-size: 10px;
+
+   
+
+
+}
+
+.formRegister {
+    padding: 40px;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: 1px solid #4299e1;
+    height: 100vh;
+}
+
+
+
+#formInputRegister {
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #202328;
+    background-color: #fdfeff;
+    border-radius: 5px;
+    outline: none;
+   margin: 4px;
+}
+
+#formInputRegister:focus,
+select:focus {
+    border-color: #4299e1;
+}
+
+#formInputRegister::placeholder,
+select::placeholder {
+    color: #a0aec0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+
+.buttonRegister {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.35rem 0.5rem;
+    background-color: #4299e1;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 7%;
+    margin-top: -14px;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+    padding: 10px 10px;
+    background-color: teal;
+    color: white;
+}
+
+#formInputRegister.input-error,
+select.input-error {
+    border: 2px solid #fc8181;
+}
+
+.buttonRegister:disabled {
+    opacity: 35;
+}
+.agreementRegister{  
+    font-size: 12px;
+    margin: 20px 0px; 
+    }
